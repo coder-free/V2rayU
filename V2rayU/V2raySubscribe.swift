@@ -31,7 +31,7 @@ class V2raySubscribe: NSObject {
 
         // load name list from UserDefaults
         let list = UserDefaults.getArray(forKey: .v2raySubList)
-        print("loadConfig", list)
+        print("loadConfig", list as Any)
 
         if list == nil {
             return

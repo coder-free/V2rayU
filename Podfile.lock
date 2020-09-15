@@ -1,27 +1,27 @@
 PODS:
-  - Alamofire (4.8.2)
-  - GCDWebServer (3.5.2):
-    - GCDWebServer/Core (= 3.5.2)
-  - GCDWebServer/Core (3.5.2)
-  - MASShortcut (2.3.6)
-  - Preferences (0.3.0)
+  - Alamofire (4.9.1)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - MASShortcut (2.4.0)
+  - Preferences (1.0.1)
   - QRCoder (1.1.0)
-  - Sparkle (1.21.3)
+  - Sparkle (1.23.0)
   - SwiftSocket (2.0.2)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 4.9.1)
   - GCDWebServer
   - MASShortcut
-  - Preferences (from `https://github.com/sindresorhus/Preferences.git`)
+  - Preferences (from `https://github.com/sindresorhus/Preferences.git`, tag `v1.0.1`)
   - QRCoder
   - Sparkle
   - SwiftSocket (from `https://github.com/odariusgeorge/SwiftSocket.git`, branch `patch-1`)
   - SwiftyJSON
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
     - GCDWebServer
     - MASShortcut
@@ -32,28 +32,29 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Preferences:
     :git: https://github.com/sindresorhus/Preferences.git
+    :tag: v1.0.1
   SwiftSocket:
     :branch: patch-1
     :git: https://github.com/odariusgeorge/SwiftSocket.git
 
 CHECKOUT OPTIONS:
   Preferences:
-    :commit: e2e2aaba41b531a642934a17c9b37149dd1c294c
     :git: https://github.com/sindresorhus/Preferences.git
+    :tag: v1.0.1
   SwiftSocket:
-    :commit: fadd0e198d146f773fbe3b5a095cdadbd71c51c8
+    :commit: 24ee358a41fef2e56c8c2fce7d0c64c81981f049
     :git: https://github.com/odariusgeorge/SwiftSocket.git
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  GCDWebServer: ead88cd14596dd4eae4f5830b8877c87c8728990
-  MASShortcut: 9c215e8a8a78f3d01ce56da48e2730ab66b538fa
-  Preferences: cfd4b0cbc5adfb5781b819ad3a000324d0fc9f48
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  MASShortcut: d9e4909e878661cc42877cc9d6efbe638273ab57
+  Preferences: a5afbe0ae3e6bd886328b1960f4998e65d58f2c4
   QRCoder: cbd2bee531cc86d286df7942334cfed94c803ae4
-  Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
-  SwiftSocket: 2f7a7e26a7489f5f33b69da914ec366368dfcbcc
+  Sparkle: 55b1a87ba69d56913375a281546b7c82dec95bb0
+  SwiftSocket: c8d482e867ae4d3eb4c769e9382e123c1f1f833b
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 407a3efc71b95e99861a0c05290182ea384ac364
+PODFILE CHECKSUM: df76129f2124c473a75b92d2dce84625f3addab7
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

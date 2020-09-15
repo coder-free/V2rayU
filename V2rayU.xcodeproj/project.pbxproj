@@ -822,14 +822,14 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				INFOPLIST_FILE = V2rayULauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.v2rayu.V2rayULauncher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.net.yanue.v2rayu.V2rayULauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -844,14 +844,14 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				INFOPLIST_FILE = V2rayULauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.v2rayu.V2rayULauncher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.net.yanue.v2rayu.V2rayULauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -865,7 +865,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				INFOPLIST_FILE = V2rayUTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -887,7 +887,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				INFOPLIST_FILE = V2rayUTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1036,14 +1036,14 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.5.0;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				INFOPLIST_FILE = V2rayU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 2.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.V2rayU;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.net.yanue.V2rayU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -1064,14 +1064,14 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.5.0;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				INFOPLIST_FILE = V2rayU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 2.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.yanue.V2rayU;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.net.yanue.V2rayU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -1086,7 +1086,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1098,7 +1098,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJYEH6TCJD;
+				DEVELOPMENT_TEAM = 2EZTLCQS99;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

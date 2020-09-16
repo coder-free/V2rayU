@@ -31,7 +31,7 @@ class V2raySubscribe: NSObject {
 
         // load name list from UserDefaults
         let list = UserDefaults.getArray(forKey: .v2raySubList)
-        print("loadConfig", list as Any)
+        print("loadConfig", list)
 
         if list == nil {
             return
@@ -247,7 +247,10 @@ class V2raySubSync: NSObject {
     public func dlFromUrl(url: String, subscribe: String) {
         logTip(title: "loading from : ", uri: "", informativeText: url + "\n\n")
 
-        Alamofire.request(url).responseString { response in
+        var request = URLRequest(url: URL(string: url)!)
+        request.cachePolicy = .reloadIgnoringCacheData
+        
+        Alamofire.request(request).responseString { response in
             switch (response.result) {
             case .success(_):
                 if let data = response.result.value {
